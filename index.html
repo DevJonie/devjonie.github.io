@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dev Jonie</title>
+	<link rel="stylesheet" type="text/css" href="./style.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="./app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/kute.js@2.1.2/dist/kute.min.js"></script>
+
+</head>
+<body>
+    <!-- Hero Section-->
+    <header id="hero" class="hero">
+        <nav>
+            <h2 class="logo"> Dev Jon<span>ie</span></h2>
+            <a href="#" class="mobile-nav-toggle" aria-controls="primary-nav" aria-expanded="false"><i class="fas fa-bars"></i></a>
+            <ul class="primary-nav" data-visible="false">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#service">Competencies</a></li>
+                <li><a href="#service">Services</a></li>
+                <li><a href="#contact-me">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="content">
+            <div class="pt-3rem"></div>
+            <div class="content-grid">
+                <div class="container-underlay">
+                    <svg id="visual" viewBox="0 0 900 900" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+                        <g transform="translate(400 500)">
+                            <path id="blob1" d="M144.7 -255.9C188.1 -197.3 224.1 -158.1 261.5 -109.6C298.8 -61.2 337.5 -3.5 343.1 58.7C348.8 121 321.4 187.9 279.6 250.2C237.9 312.5 181.8 370.2 114 391.6C46.3 412.9 -33.1 397.9 -103.6 369.5C-174.2 341.2 -236 299.6 -310 249.2C-384.1 198.7 -470.4 139.4 -481.3 68.7C-492.2 -1.9 -427.6 -83.8 -384.9 -175.1C-342.2 -266.4 -321.4 -367.1 -260.9 -417.8C-200.4 -468.5 -100.2 -469.2 -24.8 -430.7C50.7 -392.2 101.4 -314.4 144.7 -255.9" fill="#02687a">
+                            </path>
+                        </g>
+                        
+                        <g  transform="translate(400 500)" style="visibility: hidden;">
+                            <path id="blob2" d="M188.6 -272C257.6 -249.2 335.8 -219.1 388.2 -160.7C440.6 -102.3 467.2 -15.7 433.7 46.5C400.1 108.7 306.3 146.5 250.4 224.6C194.5 302.7 176.5 421.2 126.3 440.7C76.2 460.2 -6.2 380.8 -72.2 325.2C-138.3 269.6 -188.2 237.9 -236.3 196.8C-284.4 155.6 -330.8 104.9 -374.2 32.6C-417.6 -39.7 -458 -133.7 -436.2 -206.5C-414.3 -279.4 -330.2 -331.1 -247.1 -347.5C-164 -363.8 -82 -344.9 -11.1 -327.7C59.8 -310.4 119.7 -294.9 188.6 -272" fill="#02687a"></path>
+                        </g>
+                    </svg>
+                    <script>
+                        const tween = KUTE.fromTo(
+                            '#blob1',
+                            {path: '#blob1'},
+                            {path: '#blob2'},
+                            {repeat:999, duration:3000, yoyo:true}
+                        )
+                        tween.start()
+                    </script>
+                </div>
+                <div class="content-body">
+                    <h3>Hey, I'm John
+                        <br/>I'm a C#/.NET Full Stack Developer
+                        <br/>&<br/>Software Architect
+                    </h3>
+                </div>
+            </div>
+            <a href="mailto:johnaddo.dev@gmail.com?subject=Job Opportunity!&body=Hi John,%0D%0A %0D%0AI came across your profile on [Where/How You Found me: Optional] and wanted to reach out regarding a unique opportunity. I work for [Company Name: Required], and we’re looking to hire a [Job Title: Required]. I think your experience in [Field/Skill: Required] is a great fit for this role.%0D%0A %0D%0AIf you’re interested in learning more, I’d love to connect. Would you be available for a quick phone call on [Date/Time: Required]?%0D%0A %0D%0AI hope you and your loved ones are safe and healthy, and I look forward to hearing from you soon.%0D%0A %0D%0ABest Regards,%0D%0A[Your Name: Required]%0D%0A %0D%0A[Your Email Signature: Optional]%0D%0A" class="button">Hire Me</a>
+        </div>
+    </header>
+
+
+    <!--About Section-->
+    <section id="about" class="about">
+        <div class="main">
+            <img class="img" src="./img/main-img.png" alt="about me">
+            <div class="text">
+                <h2>About Me</h2>
+                <h5>C#/.NET Engineer & Software Architect</h5>
+                <p>I am a passionate Software Engineer skilled in C#/.NET technologies with about 3 years of experience leading the design and development of telecom services, mobile money payment services, ERP solutions and web applications. </p>
+
+                <p>Having a good understanding of the SOLID principles and design patterns. Also familiar with Agile Methodologies, Cloud and DevOps concepts.</p>
+
+                <p>Currently taking a deep dive into the Azure Cloud Platform.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Services Section Start-->
+    <section id="service" class="service">
+        <div class="title">
+            <h2>Services</h2>
+        </div>
+        <div class="box">
+            <div class="card">
+                <i class="fas fa-globe"></i>
+                <h5>Web App Development</h5>
+                <div class="card-body">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
+                    <p style="text-align: center;">
+                        <a class="button" href="#">Read More</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="card">
+                <i class="fas fa-cloud"></i>
+                <h5>Cloud Development on Azure</h5>
+                <div class="card-body">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
+                    <p style="text-align: center;">
+                        <a class="button" href="#">Read More</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="card">
+                <i class="fab fa-angular"></i>
+                <h5>Frontend Web Development</h5>
+                <div class="card-body">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
+                    <p style="text-align: center;">
+                        <a class="button" href="#">Read More</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--Contact Me-->
+    <section id="contact-me" class="contact-me">
+        <p>Let Me Get You A Beautiful Website</p>
+        <a href="mailto:johnaddo.dev@gmail.com?subject=Job Opportunity!&body=Hi John,%0D%0A %0D%0AI came across your profile on [Where/How You Found me: Optional] and wanted to reach out regarding a unique opportunity. I work for [Company Name: Required], and we’re looking to hire a [Job Title: Required]. I think your experience in [Field/Skill: Required] is a great fit for this role.%0D%0A %0D%0AIf you’re interested in learning more, I’d love to connect. Would you be available for a quick phone call on [Date/Time: Required]?%0D%0A %0D%0AI hope you and your loved ones are safe and healthy, and I look forward to hearing from you soon.%0D%0A %0D%0ABest Regards,%0D%0A[Your Name: Required]%0D%0A %0D%0A[Your Email Signature: Optional]%0D%0A" class="button">Hire Me</a>
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="social">
+            <a href="https://www.linkedin.com/in/johnaddo/" target="_blank">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="https://github.com/DevJonie" target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://twitter.com/DevJonie" target="_blank">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://linktr.ee/devjonie" target="_blank">
+                <i class="fas fa-link"></i>
+            </a>
+        </div>
+        <p>Copyright &copy 2022 by Dev Jonie</p>
+    </footer>
+
+    <div id="scrollToTopBtn" class="float-btn">
+        <a href="#hero" ><i class="fas fa-arrow-up"></i></a>
+    </div>
+
+</body>
+</html> 
